@@ -8,6 +8,13 @@ namespace GitPractice_I
 {
     class Program
     {
+        private void multiplicacion(int v1, int v2)
+        {
+            int res;
+            res = v1 * v2;
+            return res;
+
+        }
         static void Main(string[] args)
         {
             Suma();
