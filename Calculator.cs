@@ -23,6 +23,9 @@ namespace GitPractice_I
             Console.Read();
 
 
+            mutliplication(int a, int b){
+
+            }
         }
     }
 }
