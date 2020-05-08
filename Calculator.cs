@@ -23,8 +23,17 @@ namespace GitPractice_I
             Console.Read();
 
 
-            mutliplication(int a, int b){
+            resta(int a, int b){
+                int a, b, resultado;
 
+                a = Convert.ToInt32(Console.ReadLine());
+                b = Convert.ToInt32(Console.ReadLine());
+
+                resultado = a - b;
+
+                Console.WriteLine("El resultado es " + resultado);
+
+                Console.Read();
             }
         }
     }
