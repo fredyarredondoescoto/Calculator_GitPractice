@@ -42,6 +42,20 @@ namespace GitPractice_I
 
                 Console.Read();
             }
+			
+			//DIVISION
+			int dividendo = 8;
+            int divisor = 4;
+            
+            Console.WriteLine("El resultado es " + division(dividendo, divisor));
+
+            //MÉTODO DE DIVISIÓN
+            double division(int numA, int numB)
+            {
+                var result = 0;
+                result = numA / numB;
+                return result;
+            }
         }
     }
 }
